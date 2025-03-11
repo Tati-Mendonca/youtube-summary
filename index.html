@@ -3,14 +3,25 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/logo_youtube_icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Youtube Summary</title>
 </head>
 
 <body>
-  <div id="app"></div>
-  <script type="module" src="web/src/main.js"></script>
+  <div id="app">
+    <img src="/logo_youtube_icon.svg" alt="logo">
+    <h1>Youtube Summary</h1>
+    <form action="" id="form">
+      <input type="url" id="url" placeholder="URL do vídeo">
+      <button title="Resumir">
+        <img src="/youtube_icon.svg" alt=" icon">
+      </button>
+    </form>
+    <h2>Resumo</h2>
+    <p id="content" class="placeholdder">Escolha um vídeo para resumir</p>
+  </div>
+  <script type="module" src="./web/main.js"></script>
 </body>
 
 </html>
