@@ -7,7 +7,7 @@ app.set(cors())
 
 app.get("/summary/:id", (request, response) => {
     download(request.params.id)
-    response.send("Id do vídeo: " + request.params.id)
+    response.json({ result: "Download do vídeo realizado com sucesso!" })
 })
 
 app.listen(8080, () => console.log("Server is running on port 8080"))
