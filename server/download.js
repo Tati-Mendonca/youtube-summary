@@ -8,6 +8,7 @@ export const download = (videoId) =>
         }
 
         const videoURL = `https://www.youtube.com/watch?v=${videoId}`
+
         console.log("Realizando o download do vídeo: ", videoId);
 
         ytdl(videoURL, {

@@ -20,7 +20,7 @@
     width: 512px;
 }
 
-#app .placeholdder {
+#app .placeholder {
     color: var(--cor-dark-gray);
     user-select: none;
 }

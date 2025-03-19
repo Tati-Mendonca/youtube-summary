@@ -5,7 +5,7 @@ const content = document.getElementById("content")
 
 form.addEventListener("submit", async (event) => {
     event.preventDefault()
-
+    content.classList.add("placeholder")
     const videoURL = input.value
 
     if (videoURL.includes("youtube.com")) {
@@ -14,10 +14,11 @@ form.addEventListener("submit", async (event) => {
         content.textContent = "Carregando o resumo..."
         const transcription = await server.get("/summary/" + videoID)
 
-        const summary = await server.post("/summary", {
-            text: transcription.data.result,
-        })
-        content.textContent = summary.data.result
+        // const summary = await server.post("/summary", {
+        //     text: transcription.data.result,
+        // })
+        content.textContent = transcription.data.result
+        content.classList.remove("placeholder")
 
 
     } else if (videoURL.includes("youtu.be")) {
@@ -28,10 +29,12 @@ form.addEventListener("submit", async (event) => {
         const transcription = await server.get("/summary/" + videoID)
 
 
-        const summary = await server.post("/summary", {
-            text: transcription.data.result,
-        })
-        content.textContent = summary.data.result
+        // const summary = await server.post("/summary", {
+        //     text: transcription.data.result,
+        // })
+        content.textContent = transcription.data.result
+        content.classList.remove("placeholder")
+
 
     } else return content.textContent = "Esse não é um vídeo válido!"
 })
