@@ -1,4 +1,6 @@
-# Youtube Summarizer
+<h1 align="center"> Youtube Summarizer </h1>
+
+<p align="center"><img src="https://i.ibb.co/7dw0cCTr/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
 
 O YouTube Summarizer é uma aplicação que permite aos usuários que realizem a conversão de vídeos do YouTube em resumos textuais de forma rápida e eficiente. Basta inserir a URL do vídeo desejado e a aplicação, utilizando inteligência artificial, gera um resumo conciso do conteúdo.
 
