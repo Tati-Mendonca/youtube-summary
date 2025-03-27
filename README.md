@@ -1,10 +1,8 @@
 <h1 align="center"> Youtube Summarizer </h1>
 
-<p align="center"><img src="https://i.ibb.co/7dw0cCTr/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
+O YouTube Summarizer é uma aplicação que permite aos usuários realizar a conversão de vídeos do YouTube em resumos textuais de forma rápida e eficiente. Basta inserir a URL do vídeo desejado e a aplicação, utilizando inteligência artificial para gerar um resumo conciso do conteúdo.
 
-O YouTube Summarizer é uma aplicação que permite aos usuários que realizem a conversão de vídeos do YouTube em resumos textuais de forma rápida e eficiente. Basta inserir a URL do vídeo desejado e a aplicação, utilizando inteligência artificial, gera um resumo conciso do conteúdo.
-
-Como as as redes sociais estão cada vez mais focadas em conteúdo audiovisual, essa solução tem como objetivo promover a inclusão de deficientes visuais, garantindo que o crescente universo de vídeos seja aproveitado por um público cada vez mais amplo.
+Como as redes sociais estão cada vez mais focadas em vídeos, essa solução tem como objetivo promover a inclusão de pessoas com deficiência visual, garantindo que os conteúdos produzidos em vídeos seja acessível a todos.
 
 
 ## Funcionalidades
@@ -25,7 +23,7 @@ Como as as redes sociais estão cada vez mais focadas em conteúdo audiovisual, 
 
 ## Projeto
 
-Subir link do projeto aqui
+<p align="center"><img src="https://i.ibb.co/7dw0cCTr/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
 
 
 ## Stack utilizada
@@ -33,8 +31,35 @@ Subir link do projeto aqui
 - HTML
 - CSS
 - JavaScript
-- Transformers.js
-- Bart.AI
-- Whisper.AI
 - NodeJS
 - Express
+- Transformers.js
+- Bart.AI e Whisper.AI
+
+
+  ## Instalação 
+
+1- Clone o repositório:
+
+```bash
+  git clone https://github.com/Tati-Mendonca/youtube-ia.git
+```
+
+2 - Instale as dependências:
+
+```bash
+   cd youtube-ia
+   npm install
+```
+3 - Inicie o servidor:
+```bash
+  npm run server
+```
+
+
+## Autora
+
+| [<img src="https://avatars.githubusercontent.com/u/97405991?v=4" width=115><br><sub>Tatiane Mendonça</sub>](https://github.com/Tati-Mendonca)
+| :---: |
+
+
