@@ -23,7 +23,7 @@ Como as redes sociais estão cada vez mais focadas em vídeos, essa solução te
 
 ## Projeto
 
-<p align="center"><img src="https://i.ibb.co/7dw0cCTr/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
+<p align="center"><img src="https://i.ibb.co/RGvcgQBj/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
 
 
 ## Stack utilizada
