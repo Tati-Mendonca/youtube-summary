@@ -18,14 +18,13 @@ Como as redes sociais estão cada vez mais focadas em vídeos, essa solução te
   
 ## Protótipo
 
-![Figma Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+<div align="center"><img src="/public/protótipo.gif"></div>
 
 ## Projeto
 
 Acesse o projeto clicando aqui: https://youtube-ia.netlify.app/
 
-<p align="center"><img src="https://i.ibb.co/RGvcgQBj/Captura-de-tela-2025-03-26-163227.png" alt="Tela do app Yutube Summarizer"></p>
+<p align="center"><img src="https://i.ibb.co/4w9dbXK0/Captura-de-tela.png" alt="Tela do app Yutube Summarizer"></p>
 
 
 ## Stack utilizada
