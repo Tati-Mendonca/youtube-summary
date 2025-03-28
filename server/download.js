@@ -8,7 +8,6 @@ export const download = (videoId) =>
         }
 
         const videoURL = `https://www.youtube.com/watch?v=${videoId}`
-
         console.log("Realizando o download do vídeo: ", videoId);
 
         ytdl(videoURL, {
@@ -21,6 +20,12 @@ export const download = (videoId) =>
 
             }).on("error", (error) => {
                 console.log("Não foi possível fazer o download do vídeo" + error);
-                reject(error)
+
+                if (error.statusCode === 403) {
+                    reject(new Error("Acesso proibido ao recurso. Verifique as restrições de IP, validade do URL ou políticas do YouTube."));
+                } else {
+                    reject(error)
+                }
+
             }).pipe(fs.createWriteStream("./tmp/audio.mp4"))
-    })
+    }) 

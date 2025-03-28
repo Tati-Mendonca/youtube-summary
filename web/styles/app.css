@@ -9,7 +9,7 @@
 }
 
 #app>h2 {
-    padding-top: 3rem;
+    padding-top: 2rem;
     align-self: flex-start;
 }
 
@@ -17,10 +17,20 @@
     margin-top: 1rem;
     align-self: flex-start;
     text-align: justify;
-    width: 512px;
+    width: 28rem;
 }
 
 #app .placeholder {
     color: var(--cor-dark-gray);
     user-select: none;
+}
+
+@media (max-width: 768px) {
+    #app>img {
+        width: 4rem;
+    }
+
+    #app>h2 {
+        font-size: 1.5rem;
+    }
 }

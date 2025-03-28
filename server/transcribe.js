@@ -1,4 +1,3 @@
-import { transcriptionExample } from "./apagar/transcription.js"
 import { pipeline } from "@xenova/transformers"
 
 export async function transcribe(audio) {

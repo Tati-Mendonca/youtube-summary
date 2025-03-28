@@ -1,17 +1,17 @@
 #form {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
-    gap: 5px;
+    gap: 0.313rem;
 }
 
 #form>input {
-    height: 2.8rem;
-    width: 450px;
-    border: none;
-    border-radius: 1rem;
+    background-color: var(--cor-gray) !important;
+    -webkit-box-shadow: 0 0 0px 1000px var(--cor-gray) inset !important;
+    color: var(--cor-primaria) !important;
     padding: 0 1rem;
-    font-size: 16px;
-    background: var(--cor-gray);
+    width: 23rem;
+    border: none;
+    border-radius: 0.7rem;
 }
 
 #form>input:focus {
@@ -19,15 +19,14 @@
 }
 
 #form>button {
-    height: 2.8rem;
-    width: 3.85rem;
-    border-radius: 1rem;
-    border: none;
-    font-size: 16px;
     background-color: var(--cor-tercearia);
+    width: 3.85rem;
+    height: 2.7rem;
+    border: none;
+    border-radius: 0.7rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -37,6 +36,12 @@
     width: 1.7rem;
 }
 
-#form>button:hover {
-    background-color: var(--cor-roover-tercearia);
+@media (max-width: 600px) {
+    #form {
+        width: 100%;
+    }
+
+    #form>input {
+        width: 100%;
+    }
 }

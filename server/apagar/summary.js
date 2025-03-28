@@ -1,1 +1,0 @@
-export const summaryExample = "Funcionou, eu sou um resumo!"

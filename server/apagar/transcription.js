@@ -1,1 +1,0 @@
-export const transcriptionExample = `Funcionou, eu sou a transcrição de um vídeo!`
