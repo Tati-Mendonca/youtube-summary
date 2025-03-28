@@ -18,7 +18,7 @@ Como as redes sociais estão cada vez mais focadas em vídeos, essa solução te
   
 ## Protótipo
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Figma Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Projeto
